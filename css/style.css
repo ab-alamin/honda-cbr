@@ -1,0 +1,9 @@
+.btn-Purchase-now{
+    background-image: linear-gradient(to bottom, #eb6e1a 0%, #df6d0f 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 10px 40px;
+    border: none;}
+.grayscale{
+    filter: grayscale(100%);
+}
