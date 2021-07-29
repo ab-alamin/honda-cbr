@@ -1,9 +1,95 @@
-.btn-Purchase-now{
+/* header area css start here */
+
+
+.header-area {
+    background-color: #264653;
+}
+
+button.navbar-toggler {
+    color: #fff;
+}
+
+a.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar-nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+nav.navbar {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.navbar button.btn {
+    background: #E76F51;
+    padding: 8px 30px;
+    margin-left: 80px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.navbar button.btn:hover {
+    opacity: 0.8;
+}
+/* header area css end here */
+
+.btn-banner{
     background-image: linear-gradient(to bottom, #eb6e1a 0%, #df6d0f 100%);
-    color: white;
+    color: black;
     border-radius: 8px;
     padding: 10px 40px;
-    border: none;}
+    border: none;
+}
+
+
 .grayscale{
     filter: grayscale(100%);
+}
+
+
+
+
+
+.accordion-button h3 {
+    color: #383838;
+    font-size: 22px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+
+
+
+footer.footer-area {
+    background: #0B0D17;
+    padding: 50px 0;
+}
+
+ul.nav li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 33px;
+}
+
+.footer-left-bottom P {
+    margin: 0;
+    margin-top: 14px;
+    color: #fff;
 }
